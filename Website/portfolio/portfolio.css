@@ -19,6 +19,7 @@ h2{
 }
 
 body{
+    align-content: center;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
     
@@ -26,9 +27,16 @@ body{
 
 .floated_img
 {
-    float: left; 
+    float: center; 
+
+    margin-bottom: 50px;
+    align-content: center;
+    text-align: center;
+    
 }
 
 div{
-    text-align: center;  
+    text-align: center;
+    align-content: center;
+    padding: inherit;
 }
